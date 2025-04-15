@@ -29,3 +29,32 @@ git clone https://github.com/intelligent-ears/SolSniffer.git
 cd SolSniffer
 pip install -r requirements.txt
 npm install
+``` 
+🔍 Usage
+
+Run the analyzer on a Solidity file:
+
+python -m src.main path/to/contract.sol
+
+Example:
+
+python -m src.main tests/contracts/VulnerableContract.sol
+
+📁 Output
+
+    🖥️ Console output of findings
+
+    🧾 VulnerableContract_report.json – all findings in JSON
+
+    🧪 VulnerableContract_report.sarif.json – GitHub-compatible SARIF format
+
+📚 Implemented Rules
+Rule ID	Description	Severity
+UncheckedSend	Detects send() calls without checks	Medium
+
+🤝 Contributing
+
+Want to improve SolSniffer? Found a bug? Contributions are welcome!
+📜 License
+
+© intelligent-ears 2025
