@@ -1,0 +1,12 @@
+[
+  {
+    "type": "UncheckedSend",
+    "message": "Ether send() should be checked for success.",
+    "line": 7
+  },
+  {
+    "type": "UncheckedSend",
+    "message": "Ether send() should be checked for success.",
+    "line": 7
+  }
+]
